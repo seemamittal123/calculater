@@ -1,0 +1,182 @@
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+}
+.BOX {
+  padding-top: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.calculater-header{
+  height: 50px;
+  border-radius: 50px;
+  background-color:rgb(230,227,227);
+  padding-inline-start: 10px;
+}
+.calculater{
+  width: 300px;
+  padding: 20px;
+  background-color:black;
+  border-radius:10px;
+}
+button{
+  border-radius: 100%;
+  width: 50px;
+  height: 50px;
+  margin: 5px;
+  font-size: 18px;
+  font-weight: bold;
+}
+button:hover{
+  background-color:rgba(230, 227, 227, 0.453);
+  color: white;
+}
+.btn{
+  color: rgba(255, 68, 0, 0.754);
+}
+.btn:hover{
+  background-color: orange ;
+}
+#display{
+  font-size: 20px;
+  font-weight: bold;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  padding: 20px;
+}
+#symbol{
+  font-size: 22px;
+}
+@media screen and (min-width: 200px) and (max-width: 600px) {
+  .calculater{
+    width: 100%;
+    padding: 10px;
+  }
+  .calculater-main{
+    height: 100%;
+    width: 100%;
+  }
+  .BOX{
+    padding-top: 0px;
+    height: 100vh;
+  }
+  .btn{
+    width: 70px;
+    border-radius: 50px;
+  }
+  button{
+    width: 70px;
+    border-radius: 50px;
+  }
+   .show{
+        width: 140px !important; 
+    }
+}
