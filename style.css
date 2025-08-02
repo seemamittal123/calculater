@@ -157,26 +157,7 @@ button:hover{
 }
 @media screen and (min-width: 200px) and (max-width: 600px) {
   .calculater{
-    width: 100%;
     padding: 10px;
   }
-  .calculater-main{
-    height: 100%;
-    width: 100%;
-  }
-  .BOX{
-    padding-top: 0px;
-    height: 100vh;
-  }
-  .btn{
-    width: 70px;
-    border-radius: 50px;
-  }
-  button{
-    width: 70px;
-    border-radius: 50px;
-  }
-   .show{
-        width: 140px !important; 
-    }
+
 }
